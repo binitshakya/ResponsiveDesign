@@ -1,0 +1,378 @@
+body{
+    padding:10px 100px;
+    font-family: Inter;
+}
+
+.header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.header-options{
+    display: flex;
+    justify-content:center;
+}
+
+.header-options > select{
+    border: none;
+    background-color: white;
+    font-size: 100%;
+    color: #858A8F;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px; 
+}
+
+button{
+    background-color:#0176FF;
+    width: 179px;
+    height: 57px;
+    color: white;
+    border: none;
+    outline: none;
+    border-radius: 5%;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px; /* 120% */
+}
+
+/* .app-message > h1,h6{
+    padding:0 0 0 0 ;
+    text-align: center;
+}
+
+.app-message > h1 {
+    padding:102px 0 15px 0;
+    font-size: 60px;
+} */
+
+.app-message > h1 {
+    color: #333;
+    text-align: center;
+    font-family: Inter;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 97px; /* 121.25% */
+}
+
+.app-message > h6 {
+    color: #858A8F;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 35px; /* 175% */
+}
+
+.app-message-buttons{
+    display: flex;
+    justify-content: center;
+}
+
+.app-message-buttons > button {
+    margin: 2%;
+}
+
+.app-message-buttons-view-more{
+    background-color: #E5F1FF;
+    color: #377DFF;
+}
+
+/* .app-photo{
+    background-image: url("./images/Messnger.png");
+    background-size: auto;
+    background-repeat: no-repeat; 
+    background-image:    url(./images/Messnger.png);
+    background-size:     cover;                
+    background-repeat:   no-repeat;
+    background-position: center center;      
+} */
+
+.associated-companies{
+    margin-bottom: 150px;
+}
+
+.app-photo-img{
+    display: block;
+    margin: 0 auto;
+}
+
+.associated-companies-logos{
+    display: flex;
+    justify-content: space-evenly;
+    /* gap: 2vw; */
+}
+
+.associated-companies-logos > img{
+    margin: 20px;
+    
+}
+
+.associated-companies > h3{
+    text-align: center;
+    color: #858A8F;
+}
+
+.move-messenger{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 200px;
+}
+
+.move-messenger-image{
+    position: relative;
+    /* width: 500px; */
+    /* border: 1px solid #f00; */
+}
+
+.move-messenger-image img {
+    margin: 0;
+    padding: 0;
+    max-inline-size: 100%;
+}
+
+.move-messenger-image .img-front{
+    position: absolute;
+    /* top: 7vh;
+    left: 1vw; */
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -43%);
+}
+
+.move-task-reminder-image{
+    position : relative;
+}
+
+.move-task-reminder-image img{
+    margin:0;
+    padding:0;
+    max-inline-size: 100%;
+}
+
+.move-task-reminder-image .task-img-front{
+    position:absolute;
+    left: 50%;
+    top:50%;
+    transform: translate(-50%,-43%);
+}
+
+.move-messenger-text > h1 {
+    color: #333;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 73px; /* 121.667% */
+}
+
+.move-messenger-text > h6{
+    color: #858A8F;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 35px; /* 175% */
+}
+
+.move-task-reminder{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 170px;
+    gap: 3rem;
+}
+
+.move-task-reminder-text > h1 {
+    color: #333;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 73px; /* 121.667% */
+}
+
+.move-task-reminder-text > h6 {
+    color: #858A8F;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 35px; /* 175% */
+}
+
+.move-messenger-image > img{
+    margin: 0px 50px 0 50px;
+}
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    margin-top : 10px;
+}
+
+.footer-main-container{
+    padding:0 1.5rem;
+}
+
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+    
+
+}
+
+.footer li, .footer h3 {
+    color: #858A8F;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 35px; /* 175% */
+    text-indent: 0;
+    list-style: none;
+}
+
+.footer h1 {
+    color: #333;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 29px; 
+}
+
+.footer-logo-images{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-copyright h3{
+    color: #898A8E;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 22px; /* 122.222% */
+    /* margin-left: 76px; */
+}
+
+@media all and (max-width : 1200px){
+    .move-messenger-image > img {
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media all and (max-width:1100px){
+    .move-messenger{
+        flex-direction: column;
+    }
+
+    .move-task-reminder{
+        flex-direction: column;
+    }
+
+    .app-photo-img{
+        width: 100%;
+        height: auto;
+    }
+}
+/* Responsive styles for header */
+@media all and (max-width: 768px) {
+    .header {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .header-options {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 10px;
+    }
+
+    .header-options > select {
+        margin-bottom: 10px;
+    }
+
+    button {
+        width: 100%;
+    }
+}
+
+/* Responsive styles for app-message */
+@media all and (max-width: 768px) {
+    .app-message > h1 {
+        font-size: 40px;
+        line-height: 50px;
+    }
+
+    .app-message > h6 {
+        font-size: 16px;
+        line-height: 25px;
+    }
+
+    .app-message-buttons {
+        flex-direction: column;
+    }
+
+    .app-message-buttons > button {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+}
+
+/* Responsive styles for associated-companies */
+@media all and (max-width: 768px) {
+    .associated-companies-logos {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .associated-companies-logos > img {
+        margin: 10px;
+    }
+}
+
+/* Responsive styles for move-messenger */
+@media all and (max-width: 768px) {
+    .move-messenger-text > h1 {
+        font-size: 40px;
+        line-height: 50px;
+    }
+
+    .move-messenger-text > h6 {
+        font-size: 16px;
+        line-height: 25px;
+    }
+
+    .move-messenger-image > img {
+        margin: 0;
+    }
+}
+
+/* Responsive styles for footer */
+@media all and (max-width: 768px) {
+    .footer-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer h1,
+    .footer li {
+        text-align: center;
+        margin-bottom: 5px;
+    }
+
+    .footer-logo-images {
+        margin-top: 10px;
+        justify-content: center;
+    }
+
+    .footer-copyright h3 {
+        border : 1px solid red;
+        text-align: center;
+        margin-top: 10px;
+    }
+}

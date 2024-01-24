@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Design Assignment</title>
+    <link href="style.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <img src = './images/Logo.png'/>
+        <div class="header-options">
+            <select disabled>
+                <option>Home</option>
+            </select>
+            <select disabled>
+                <option>Pages</option>
+            </select disabled>
+            <select disabled>
+                <option>Blog</option>
+            </select>
+            <select disabled>
+                <option>Portfolio</option>
+            </select>
+        </div>
+            <button>Get Started</button>
+    </header>
+    
+    <section class ="app-message">
+        <h1 class="app-motto">A messenger that is <br>ahead of its time</h1>
+        <h6 class="app-try-message">Try the new Move messenger! It will definitely impress you with its amazing features <br>that will make it easier for you to communicate between your friends.</h6>
+        <div class="app-message-buttons">
+            <button type="submit">Get Started</button>
+            <button type="submit" class="app-message-buttons-view-more">View more</button>
+        </div>
+    </section>
+    
+    <section class="app-photo">
+        <img src="./images/Messnger.png"/   class="app-photo-img">
+    </section>
+
+    <section class="associated-companies">
+        <h3>Companies that have already tried our messenger</h3>
+        <div class="associated-companies-logos">
+            <img src="images/goldline.png"/>
+            <img src="images/aven.png"/>
+            <img src="images/kanba.png"/>
+            <img src="images/kyan.png"/>
+            <img src="images/spotify.png"/>
+        </div>
+    </section>
+
+    <!-- <section class="move-messenger">
+        <div class="move-messenger-text">
+            <h1>Find out what <br/>Move Messenger <br/>is capable of</h1>
+            <h6>Watch a short video that tells you about the<br/> useful features of our mobile app. Everything <br/>you need is always at hand with Move.</h6>
+            <button type="submit">View More</button>
+        </div>
+        <div class="move-messenger-image" style="position: relative;">
+            <img src="images/Image-16.png" style="position: absolute; z-index: 0;">
+            <img src="images/Components-5.png" style="z-index: -1; position: absolute; transform: translateY(-100px); left: -20px;">
+        </div>
+    </section> -->
+    <section class="move-messenger" >
+        <div class="move-messenger-text">
+            <h1>Find out what <br/>Move Messenger <br/>is capable of</h1>
+            <h6>Watch a short video that tells you about the<br/> useful features of our mobile app. Everything <br/>you need is always at hand with Move.</h6>
+            <button type="submit">View More</button>
+        </div>
+
+<!-- 
+        <style>
+            .move-messenger-image{
+                position: relative;
+                /* width: 500px; */
+                border: 1px solid #f00;
+            }
+
+            .move-messenger-image img {
+                margin: 0;
+                padding: 0;
+                max-inline-size: 100%;
+            }
+
+            .move-messenger-image .img-front{
+                position: absolute;
+                /* top: 7vh;
+                left: 1vw; */
+                left: 50%;
+                top: 50%;
+                transform: translate(-50%, -43%);
+            }
+        </style> -->
+        <div class="move-messenger-image">
+            <img src="images/Components-5.png">
+            <img src="images/Image-16.png"  class="img-front">
+        </div>
+        <!-- <div class="move-messenger-image" style="position: relative ; border: 1px solid red;">
+            <img src="images/Image-16.png" class="move-messenger-image-top" style="position: absolute; top: 80px; left: 40px;">
+            <img src="images/Components-5.png">
+        </div> -->
+
+    </section>
+
+    <section class="move-task-reminder">
+        <!-- <div class="move-task-reminder-image" style="position: relative; ">
+            <img src="images/Image-11.png" class="task-img-front" style="position: absolute; top: 72px; left: -50px;">
+            <img src="images/Components-2.png">
+        </div> -->
+        <div class="move-task-reminder-image" >
+            <img src="images/Image-11.png" class="task-img-front">
+            <img src="images/Components-2.png">
+        </div>
+        <div class="move-task-reminder-text">
+            <h1>Move will remind <br>you when to <br>complete a task</h1>
+            <h6>You can use our messenger to set reminders for <br> tasks that you want to complete on time. And <br>you can choose the importance of tasks using <br>tags.</h6>
+        </div>
+    </section>
+
+    <footer class="footer">
+       <div class="footer-main-container">
+            <div class="footer-container">
+                <div class="footer-logo">
+                    <img src="./images/Logo.png">
+                    <h3>Move - Multipurpose Design <br>Template will help you <br> develop your website design.</h3>
+                    <div class="footer-logo-images">
+                        <img src ="images/Dribbble.png">
+                        <img src ="images/Facebook.png">
+                        <img src ="images/Twitter.png">
+                        <img src ="images/YouTube.png">
+                    </div>
+                </div>
+                <div class="footer-home">
+                    <ul>
+                        <h1>Home</h1>
+                        <li>Desktop app</li>
+                        <li>Mobile app</li>
+                        <li>SaaS</li>
+                        <li>Event</li>
+                        <li>Software</li>
+                    </ul>
+                </div>
+                <div class="footer-pages">
+                    <ul>
+                        <h1>Pages</h1>
+                        <li>About Us</li>
+                        <li>Careers</li>
+                        <li>Case Studies</li>
+                        <li>Pricing</li>
+                    </ul>
+                </div>
+                <div class="footer-blog">
+                    <ul>
+                        <h1>Blog</h1>
+                        <li>Blog Listing</li>
+                        <li>Blog Article</li>
+                        <li>Newsroom</li>
+                    </ul>
+                </div>
+    
+                <div class="footer-portfolio">
+                    <ul>
+                        <h1>Portfolio</h1>
+                        <li>Portfolio</li>
+                        <li>Single Case</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-copyright">
+                <h3>© 2019-2020 Wave Multipurpose Design Template.</h3>
+            </div>
+        </div>
+    </footer>
+   
+</body>
+</html>
